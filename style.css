@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(98, 98, 213);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.stopwatch{
+    text-align: center;
+    background:white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.display{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.controls button{
+    font-size: 1em;
+    padding: 10px 20px;
+margin: 5px;
+border: none;
+border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#startstop{
+    background: rgb(128, 0, 66);
+    color: #24cf0e;
+}
+
+#reset{
+    background:red;
+    color: #fff;
+}
+
+
+.controls button:hover {
+    opacity: 0.8;
+}
+
